@@ -8,4 +8,4 @@
 **Gallo, Carotenuto e Pala**, hanno lavorato più attivamente al **codice**, mentre **Corbo e Fulgione** si sono occupati della parte riguardante **GitHub** e successivamente hanno cercato delle **guide** per facilitare la realizzazione del progetto.
 Pertanto oggi non abbiamo svolto progressi per quanto riguarda la **stesura dei codici**, ma abbiamo riordinato il lavoro svolto finora e abbiamo riorganizzato le idee per facilitare il lavoro da svolgere da questo momento in poi.
 Il lato riguardante GitHub prima era molto caotico, mentre ora risulta molto più ordinato, sia per il professore, sia per i membri del gruppo stesso.
-L'incontro è finito alle **ore 13**.*
+L'incontro è finito alle **ore 13**.* 
