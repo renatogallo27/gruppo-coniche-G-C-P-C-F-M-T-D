@@ -17,6 +17,7 @@ class Retta:
             self.__b = 1
             self.__a = -self.__m
             self.__c = -self.__q
+            self.__punti = []
 
         elif tipo == "coeff":
             self.__m = p4
@@ -26,6 +27,7 @@ class Retta:
             self.__b = 1
             self.__a = -self.__m
             self.__c = -self.__q
+            self.__punti = []
 
     def getA(self):
         return self.__a
@@ -76,7 +78,7 @@ class Retta:
             self.__m = -self.__a / self.__b
             return self.__m
 
-    def intersezione(self, a1=None, b1=None, c1=None, m1=None):
+    def intersezione(self, a1, b1, c1, m1):
         if m1 == self.__m:
             return f"null"
 
