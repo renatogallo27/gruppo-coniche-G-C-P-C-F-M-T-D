@@ -12,6 +12,6 @@ L'incontro è finito alle **ore 13**.*
 
 ***05/12***
 
-*Questa domenica eravamo tutti presenti e ci siamo visti in riunione Meet dopo pranzo, precisamente alle **15:30**. 
+*Questa domenica eravamo tutti presenti e ci siamo visti in riunione Meet dopo pranzo, precisamente alle **15:30**.* 
 
-Abbiamo sistemato il metodo per trovare il fuoco e la direttrice. Successivamente abbiamo completato il costruttore che ottiene (A, B, C) a partire dal **fuoco** e dalla **direttrice**. 
+*Abbiamo sistemato il metodo per trovare il fuoco e la direttrice. Successivamente abbiamo completato il costruttore che ottiene (A, B, C) a partire dal **fuoco** e dalla **direttrice**.*
