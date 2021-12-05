@@ -9,3 +9,9 @@
 Pertanto oggi non abbiamo svolto progressi per quanto riguarda la **stesura dei codici**, ma abbiamo riordinato il lavoro svolto finora e abbiamo riorganizzato le idee per facilitare il lavoro da svolgere da questo momento in poi.
 Il lato riguardante GitHub prima era molto caotico, mentre ora risulta molto più ordinato, sia per il professore, sia per i membri del gruppo stesso.
 L'incontro è finito alle **ore 13**.* 
+
+***05/12***
+
+*Questa domenica eravamo tutti presenti e ci siamo visti in riunione Meet dopo pranzo, precisamente alle **15:30**. 
+
+Abbiamo sistemato il metodo per trovare il fuoco e la direttrice. Successivamente abbiamo completato il costruttore che ottiene (A, B, C) a partire dal **fuoco** e dalla **direttrice**. 
