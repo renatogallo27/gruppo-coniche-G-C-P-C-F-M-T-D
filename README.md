@@ -9,7 +9,7 @@
 - Gallo: **Gestione e realizzazione del software**
 - Minichiello: **Gestione e realizzazione del software e addetto ad aggiornare il file .md**
 - Fulgione: **Gestione e realizzazione del software e addetto ad aggiornare il file .md**
-- Todino: **Gestione e realizzazione del software e addetto ad aggiornare il file .md**
+- Todino: **Creazione diagramma di flusso e gestione e realizzazione del software**
 
 **Organizzazione del gruppo:**
 
