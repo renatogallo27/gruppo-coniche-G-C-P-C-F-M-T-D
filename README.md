@@ -1,6 +1,6 @@
 **Gruppo coniche**
 
-*Il nostro gruppo per la realizzazione di questo progetto è formato da Gallo, Pala, Corbo, Carotenuto, Minichiello, Fulgione e Todino.*
+*Il nostro gruppo per la realizzazione di questo progetto è formato da Gallo, Pala, Corbo, Carotenuto, Minichiello, Fulgione, Todino e Di Gennaro.*
 
 **Ruoli**
 - Pala: **Gestione e realizzazione del software e addetto ad aggiornare il file .md**
@@ -10,6 +10,7 @@
 - Minichiello: **Gestione e realizzazione del software e addetto ad aggiornare il file .md**
 - Fulgione: **Gestione e realizzazione del software e addetto ad aggiornare il file .md**
 - Todino: **Creazione diagramma di flusso e gestione e realizzazione del software**
+- Di Gennaro: **Creazione diagramma di flusso**
 
 **Organizzazione del gruppo:**
 
