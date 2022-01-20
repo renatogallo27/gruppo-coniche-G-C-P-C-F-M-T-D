@@ -10,7 +10,7 @@
 - Minichiello: **Gestione e realizzazione del software e addetto ad aggiornare il file .md**
 - Fulgione: **Gestione e realizzazione del software e addetto ad aggiornare il file .md**
 - Todino: **Creazione diagramma di flusso e gestione e realizzazione del software**
-- Di Gennaro: **Creazione diagramma di flusso**
+- Di Gennaro: **Creazione diagramma di flusso e gestione del ReadMe**
 
 **Organizzazione del gruppo:**
 
