@@ -23,3 +23,5 @@ Come si può notare sopra bene o male tutti quanti abbiamo lo stesso ruolo, ma c
 - C'è chi lavora sul codice e lo presenta per rendere tutti partecipi nel lavoro.
 
 In particolare devo dire che la nostra grande dote da gruppo è quella che anche se qualcuno durante la riunione se ne deve andare perchè ha degli impegni, il gruppo continua a lavorare e la volta prossima verrà fatto un sunto di quello che è stato fatto in sua assenza.
+
+**Descrizione del gioco:**
