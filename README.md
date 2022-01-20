@@ -26,7 +26,7 @@ In particolare devo dire che la nostra grande dote da gruppo è quella che anche
 
 **Incontri:**
 
-*In questo file inseriremo gli aggiornamenti del gruppo, volta per volta. A questo file lavoreranno le persone che non partecipano attivamente alla stesura del codice*
+*In questo sezione vi sono gli aggiornamenti del lavoro di gruppo, volta per volta. Ciò è stato fatto per rendere il tutto più organizzato in modo tale che anche per il professore fosse più semplice seguirci step-by-step.*
 
 ***28/11***
 
