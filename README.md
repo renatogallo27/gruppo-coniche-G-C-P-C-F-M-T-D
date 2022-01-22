@@ -8,7 +8,7 @@ Fulgione, Todino e Di Gennaro.*
 - Pala: **Gestione e realizzazione del software e addetto ad aggiornare il file .md**
 - Corbo: **Gestione e realizzazione del software e addetto ad aggiornare il file .md**
 - Carotenuto: **Gestione e realizzazione del software e addetto ad aggiornare il file .md**
-- Gallo: **Gestione e realizzazione del software**
+- Gallo: **Gestione, realizzazione del software e gestione del ReadMe**
 - Minichiello: **Gestione e realizzazione del software e addetto ad aggiornare il file .md**
 - Fulgione: **Gestione e realizzazione del software e addetto ad aggiornare il file .md**
 - Todino: **Creazione diagramma di flusso e gestione e realizzazione del software**
