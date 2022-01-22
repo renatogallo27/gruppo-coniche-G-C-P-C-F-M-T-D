@@ -67,6 +67,9 @@ nei pressi di Saturno cambierà la scena e si dovranno schivare i frammenti più
 anelli di Saturno. In caso il giocatore non venisse colpito più di tre volte dai detriti che gli vengono in contro, egli
 avrà terminato il gioco con successo, in caso contrario il gioco terminerà con una scritta “Game Over”.
 
+# ![github-small](https://github.com/renatogallo27/gruppo-coniche/blob/main/images/astro.png)
+# ![github-small](https://github.com/renatogallo27/gruppo-coniche/blob/main/images/saturno.png)
+
 ### *Requisiti*
 
 #### *Concetti teorici:*
@@ -81,4 +84,3 @@ Bisogna possedere python e un suo interprete sul proprio computer.
 
 Bisogna avere installati sul proprio computer i moduli python: pygame, pgzero, random,
 (possibili altri moduli che probabilmente ci serviranno ma di cui adesso non siamo a conoscenza).
-![alt text]() 
