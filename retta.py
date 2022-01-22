@@ -62,12 +62,11 @@ class Retta:
         y = ((-self.__a * x) / self.__b + (-self.__c / self.__b))
         return y
 
-    def punti(self, N, M, x):
-        for N in range(M, x):
+    def punti(self, N, M):
+        for x in range(N, M):
             tupla = (x, self.trovaY(x))
-            x = x + 1
             self.__punti.append(tupla)
-            return f"Coordinate dei punti: {self.__punti}"
+        return self.__punti
 
     def m(self):
         if self.__b == 0:
@@ -80,10 +79,10 @@ class Retta:
 
     def intersezione(self, a1, b1, c1, m1):
         if m1 == self.__m:
-            return f"null"
-
-        elif m1 == self.__m and (-self.__c / self.__b) == (-c1 / b1):
-            return self.__punti
+            if m1 == self.__m and (-self.__c / self.__b) == (-c1 / b1):
+                return self.__punti
+            else:
+                return f"null"
 
         else:
             intersezione = (

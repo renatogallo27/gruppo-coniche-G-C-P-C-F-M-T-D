@@ -4,7 +4,7 @@ class Parabola:
             self.__a = p1
             self.__b = p2
             self.__c = p3
-            self.punti = []
+            self.__punti = []
 
         elif tipo == "fuocoDiret":
             self.__xfuoco = p1
@@ -13,6 +13,7 @@ class Parabola:
             self.__a = (4 * self.__yfuoco - self.__diret * 4) / 2
             self.__b = self.__a * self.__xfuoco * -2
             self.__c = (4 * self.__yfuoco + self.__yfuoco * self.__yfuoco - 1) / (4 * self.__xfuoco)
+            self.__punti = []
 
     def getA(self):
         return self.__a
@@ -36,7 +37,28 @@ class Parabola:
     def direttrice(self, asse):
         if asse == "parallelo all'asse delle x":
             c2 = (-1 - ((self.__b * self.__b) - 4 * self.__a * self.__c)) / (4 * self.__a)
-            return f"y={c2}"
+            return c2, f"y={c2}"
         elif asse == "parallelo all'asse delle y":
             c2 = (-1 - ((self.__b * self.__b) - 4 * self.__a * self.__c)) / (4 * self.__a)
-            return f"x={c2}"
+            return c2, f"x={c2}"
+
+    def trovaY(self, x):
+        y = self.__a * (x ** 2) + self.__b * x + self.__c
+        return y
+
+    def trovaX(self, y):
+        x = self.__a * (y ** 2) + self.__b * y + self.__c
+        return x
+
+    def punti(self, N, M, asse):
+        if asse == "parallelo all'asse delle y":
+            for x in range(N, M):
+                tupla = (x, self.trovaY(x))
+                self.__punti.append(tupla)
+            return self.__punti
+
+        elif asse == "parallelo all'asse delle x":
+            for y in range(N, M):
+                tupla = (self.trovaX(y), y)
+                self.__punti.append(tupla)
+            return self.__punti
