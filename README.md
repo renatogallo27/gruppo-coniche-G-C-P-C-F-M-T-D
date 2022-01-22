@@ -68,7 +68,7 @@ anelli di Saturno. In caso il giocatore non venisse colpito più di tre volte da
 avrà terminato il gioco con successo, in caso contrario il gioco terminerà con una scritta “Game Over”.
 
 # ![github-small](https://github.com/renatogallo27/gruppo-coniche/blob/main/images/astro.png)
-# ![github-small](https://github.com/renatogallo27/gruppo-coniche/blob/main/images/saturno.png)
+# ![github-small](https://github.com/renatogallo27/gruppo-coniche/blob/main/images/saturno.jpg)
 
 ### *Requisiti*
 
