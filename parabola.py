@@ -25,20 +25,20 @@ class Parabola:
         return self.__c
 
     def fuoco(self, asse):
-        if asse == "parallelo all'asse delle x":
+        if asse == "x":
             x = (-self.__b) / (self.__a * 2)
             y = (-(self.__b * self.__b) - 4 * self.__a * self.__c) / 4 * self.__a
             return x, y
-        if asse == "parallelo all'asse delle y":
+        if asse == "y":
             x = (-(self.__b * self.__b) - 4 * self.__a * self.__c) / 4 * self.__a
             y = (-self.__b) / (self.__a * 2)
             return x, y
 
     def direttrice(self, asse):
-        if asse == "parallelo all'asse delle x":
+        if asse == "x":
             c2 = (-1 - ((self.__b * self.__b) - 4 * self.__a * self.__c)) / (4 * self.__a)
             return c2, f"y={c2}"
-        elif asse == "parallelo all'asse delle y":
+        elif asse == "y":
             c2 = (-1 - ((self.__b * self.__b) - 4 * self.__a * self.__c)) / (4 * self.__a)
             return c2, f"x={c2}"
 
@@ -51,13 +51,13 @@ class Parabola:
         return x
 
     def punti(self, N, M, asse):
-        if asse == "parallelo all'asse delle y":
+        if asse == "y":
             for x in range(N, M):
                 tupla = (x, self.trovaY(x))
                 self.__punti.append(tupla)
             return self.__punti
 
-        elif asse == "parallelo all'asse delle x":
+        elif asse == "x":
             for y in range(N, M):
                 tupla = (self.trovaX(y), y)
                 self.__punti.append(tupla)

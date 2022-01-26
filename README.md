@@ -7,7 +7,8 @@ Fulgione, Todino e Di Gennaro.*
 
 - Pala: **Gestione e realizzazione del software e addetto ad aggiornare il file .md**
 - Corbo: **Gestione e realizzazione del software e addetto ad aggiornare il file .md**
-- Carotenuto: **Gestione e realizzazione del software, addetto ad aggiornare il file .md e addetto alla modifica delle immagini su Adobe Photoshop**
+- Carotenuto: **Gestione e realizzazione del software, addetto ad aggiornare il file .md e addetto alla modifica delle
+  immagini su Adobe Photoshop**
 - Gallo: **Gestione, realizzazione del software e gestione del ReadMe**
 - Minichiello: **Gestione e realizzazione del software e addetto ad aggiornare il file .md**
 - Fulgione: **Gestione e realizzazione del software e addetto ad aggiornare il file .md**
@@ -68,6 +69,7 @@ anelli di Saturno. In caso il giocatore non venisse colpito più di tre volte da
 avrà terminato il gioco con successo, in caso contrario il gioco terminerà con una scritta “Game Over”.
 
 # ![github-small](https://github.com/renatogallo27/gruppo-coniche/blob/main/images/astro.png)
+
 # ![github-small](https://github.com/renatogallo27/gruppo-coniche/blob/main/images/saturno.png)
 
 ### *Requisiti*

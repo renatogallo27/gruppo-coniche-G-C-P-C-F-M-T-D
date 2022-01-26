@@ -40,23 +40,28 @@ class Retta:
 
     def eqImplicita(self):
         if self.__b == 0:
-            return f"{self.__a}x+{self.__c}=0"
+            return self.__a, self.__c, f"{self.__a}x+{self.__c}=0",
         elif self.__c == 0:
-            return f"{self.__a}x+{self.__b}y=0"
+            return self.__a, self.__b, f"{self.__a}x+{self.__b}y=0"
         elif self.__a == 0:
-            return f"{self.__b}y+{self.__c}=0"
+            return self.__b, self.__c, f"{self.__b}y+{self.__c}=0"
         else:
-            return f"{self.__a}x+{self.__b}y+{self.__c}"
+            return self.__a, self.__b, self.__c, "{self.__a}x+{self.__b}y+{self.__c}"
 
     def eqEsplicita(self):
         if self.__b == 0:
-            return f"x={-self.__c}/{self.__a}"
+            equazio = (-self.__c) / self.__a
+            return equazio, "x={-self.__c}/{self.__a}"
         elif self.__c == 0:
-            return f"y={-self.__a}x/{self.__b}"
+            equazio = (-self.__a) / self.__b
+            return equazio, "y={-self.__a}x/{self.__b}"
         elif self.__a == 0:
-            return f"y={-self.__c}/{self.__b}"
+            equazio = (-self.__c) / self.__b
+            return equazio, "y={-self.__c}/{self.__b}"
         else:
-            return f"y={-self.__a / self.__b}x+{-self.__c / self.__b}"
+            equaziox = (-self.__a) / self.__b
+            equazio = (-self.__c) / self.__b
+            return equaziox, equazio, "y={-self.__a / self.__b}x+{-self.__c / self.__b}"
 
     def trovaY(self, x):
         y = ((-self.__a * x) / self.__b + (-self.__c / self.__b))
@@ -70,9 +75,9 @@ class Retta:
 
     def m(self):
         if self.__b == 0:
-            return f"La retta è parallela all'asse delle ordinate"
+            return f"null"
         elif self.__a == 0:
-            return f"La retta è perpendicolare all'asse delle ascisse"
+            return f"null"
         else:
             self.__m = -self.__a / self.__b
             return self.__m
