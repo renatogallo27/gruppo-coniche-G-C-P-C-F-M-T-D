@@ -23,11 +23,31 @@ Tutte le modifiche apportate al file verrano segnate qui.
 
 - Sistemato il metodo per trovare il **fuoco** e la **direttrice**.
 
-## [0.3.0] - 19-01-2022
+## [0.3.0] - 014-12-2021
+
+### Added
+
+- Aggiunti punti retta
+- Aggiunti punti parabola
+
+## [0.4.0] - 08-01-2022
+
+### Added
+
+- Creato file .pdf riguardante il progetto.
+
+## [0.5.0] - 19-01-2022
 
 ### Added
 
 - Disegnato il **diagramma di flusso**
+
+## [0.6.0] - 20-01-2022
+
+### Fixed
+
+- Corretto il file readme seguendo i consigli del professore.
+- Corrette alcune imperfezioni nel **Diagramma di flusso**.
 
 
 
@@ -51,6 +71,14 @@ L'incontro è finito alle **ore 13**.*
 *Abbiamo sistemato il metodo per trovare il fuoco e la direttrice. Successivamente abbiamo completato il costruttore che ottiene (A, B, C) a partire dal **fuoco** e dalla **direttrice**.*
 *L'incontro è finito alle ore **17:20**.*
 
+***15/12***
+
+* -__- *
+
 ***19/01***
 
-*Mercoledì dopo scuola, precisamente alle **15:30**, abbiamo lavorato adoperando come piattaforma di comunicazione **Discord**. Alessandro attraverso **LucidChart** ha messo le mani e ha incominciato a disegnare il diagramma di flusso mentre condivideva con noi lo schermo. L'incontro è finito alle **17:30**
+*Mercoledì dopo scuola, precisamente alle **15:30**, abbiamo lavorato adoperando come piattaforma di comunicazione **Discord**. Alessandro attraverso **LucidChart** ha messo le mani e ha incominciato a disegnare il diagramma di flusso mentre condivideva con noi lo schermo. L'incontro è finito alle **17:30**.
+
+***20/01***
+
+*Giovedì, a causa della mancanza della Prof.ssa Tripepi, abbiamo mostrato il nostro lavoro al Professor Mazzone che ci ha dato alcuni consigli di rifinitura riguardanti sia il diagramma sia GitHub.*
