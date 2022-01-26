@@ -1,3 +1,29 @@
+# Changelog
+
+Tutte le modifiche apportate al file verrano segnate qui.
+
+## [0.1.0] - 28-11-2021
+
+### Added
+
+- Repository condiviso su GitHub
+
+### Fixed
+
+- Pulito il codice
+- Riordinato GitHub
+
+## [0.2.0] - 05-12-2021
+
+### Added
+
+- Costruttore che ottiene (A, B, C) a partire dal **fuoco** e dalla **direttrice**.
+
+### Fixed
+
+- Sistemato il metodo per trovare il **fuoco** e la **direttrice**.
+
+
 **Gruppo coniche**
 
 *In questo file inseriremo gli aggiornamenti del gruppo, volta per volta. A questo file lavoreranno le persone che non partecipano attivamente alla stesura del codice*
