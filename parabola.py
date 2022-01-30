@@ -27,10 +27,10 @@ class Parabola:
     def fuoco(self, asse):
         if asse == "x":
             x = (-self.__b) / (self.__a * 2)
-            y = (-(self.__b * self.__b) - 4 * self.__a * self.__c) / 4 * self.__a
+            y = (1 - (-(self.__b * self.__b) - 4 * self.__a * self.__c)) / 4 * self.__a
             return x, y
         if asse == "y":
-            x = (-(self.__b * self.__b) - 4 * self.__a * self.__c) / 4 * self.__a
+            x = (1 - (-(self.__b * self.__b) - 4 * self.__a * self.__c)) / 4 * self.__a
             y = (-self.__b) / (self.__a * 2)
             return x, y
 

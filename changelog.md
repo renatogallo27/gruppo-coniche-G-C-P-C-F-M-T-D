@@ -56,7 +56,7 @@ Tutte le modifiche apportate al file verrano segnate qui.
 - Corretto alcuni metodi della classe retta, che restituivano una stringa.
 - Corretto l'input **"asse"** dei metodi della direttrice, dei punti e del fuoco; adesso esso richiederà in input solo x
   o y.
-- Aggiunti preconcetti matematici nel PDF.
+- Aggiunti preconcetti matematici nel PDF e nel ReadMe.
 - Modificato il metodo dell'intersezione della classe retta.
 
 ***
