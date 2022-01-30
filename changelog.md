@@ -56,6 +56,8 @@ Tutte le modifiche apportate al file verrano segnate qui.
 - Corretto alcuni metodi della classe retta, che restituivano una stringa.
 - Corretto l'input **"asse"** dei metodi della direttrice, dei punti e del fuoco; adesso esso richiederà in input solo x
   o y.
+- Aggiunti preconcetti matematici nel PDF.
+- Modificato il metodo dell'intersezione della classe retta.
 
 ***
 
@@ -85,10 +87,6 @@ professore, sia per i membri del gruppo stesso. L'incontro è finito alle **ore 
 ottiene (A, B, C) a partire dal **fuoco** e dalla **direttrice**.*
 *L'incontro è finito alle ore **17:20**.*
 
-***15/12***
-
-* -__- *
-
 ***19/01***
 
 *Mercoledì dopo scuola, precisamente alle **15:30**, abbiamo lavorato adoperando come piattaforma di comunicazione **
@@ -105,3 +103,7 @@ ha dato alcuni consigli di rifinitura riguardanti sia il diagramma sia GitHub.*
 *Oggi abbiamo preso atto dei consigli del professor Mazzone e abbiamo sistemato alcuni metodi della classe retta, che
 restituivano ancora una stringa. Successivamente abbiamo cambiato l'input "asse" dei metodi della direttrice, dei punti
 e del fuoco; adesso esso richiederà in input solo x o y.*
+
+***30/01***
+*Oggi abbiamo fatto la scrittura dei preconcetti matematici che servono per comprendere al meglio ogni metodo delle
+classi retta e parabola. Inoltre abbiamo modificato il metodo dell'intersezione delle rette.*
