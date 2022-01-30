@@ -5,11 +5,13 @@ Fulgione, Todino e Di Gennaro.*
 
 ## **Ruoli**
 
-- Pala: **Gestione e realizzazione del software e addetto ad aggiornare il file .md**
+- Pala: **Gestione e realizzazione del software, addetto ad aggiornare il file .md e addetto ai preconcetti
+  matematici.**
 - Corbo: **Gestione e realizzazione del software e addetto ad aggiornare il file .md**
 - Carotenuto: **Gestione e realizzazione del software, addetto ad aggiornare il file .md e addetto alla modifica delle
   immagini su Adobe Photoshop**
-- Gallo: **Gestione, realizzazione del software e gestione del ReadMe**
+- Gallo: **Gestione e realizzazione del software, gestione del ReadMe e del changelog e addetto ai preconcetti
+  matematici.**
 - Minichiello: **Gestione e realizzazione del software e addetto ad aggiornare il file .md**
 - Fulgione: **Gestione e realizzazione del software e addetto ad aggiornare il file .md**
 - Todino: **Creazione diagramma di flusso e gestione e realizzazione del software**
@@ -92,56 +94,65 @@ Bisogna avere installati sul proprio computer i moduli python: pygame, pgzero, r
 ### *Tutti i metodi della classe retta:*
 
 #### *eqImplicita:*
+
 	in base ai valori dei parametri (a, b, c) ricava l’equazione implicita del tipo 
 	ax + by + c = 0.
 
 #### *eqEsplicita:*
+
 	in base al valore dei parametri (a, b, c) ricava l’equazione esplicita del tipo 
 	y = (-a/b)x + (-c/b) dove (-a/b) è il coefficiente angolare e (-c/b) è l’intercetta.
 
 #### *trovaY:*
+
 	presi i valori di a, b, c e x trova il valore di y. Questo metodo è implementato nel
 	metodo “punti”.
 
 #### *punti:*
+
     l’utente inserisce un range di valori di x e il metodo trova i corrispondenti valori di y
     attraverso il metodo “trovaY”. Successivamente inserisce le coordinate dei punti
     trovati in quel range di x all’interno di una lista di tuple
 
 #### *m (coefficiente angolare):*
+
 	dati i valori dei parametri (a, b) ricava il valore del coefficiente angolare (m) tramite 	la formula m = -a/b.
 
 #### *intersezione:*
+
     se coefficiente angolare (m) e intercetta (q) delle due equazioni sono uguali allora le rette sono coincidenti (hanno tutti i punti in comune).
     Se il coefficiente angolare è uguale mentre l’intercetta è diversa allora non ci sono punti di intersezione in quanto le rette sono parallele.
     Se il coefficiente angolare è diverso metti a sistema le due equazioni ricavando il
     punto d’intersezione tra le due rette.
 
-
 ### *Tutti i metodi della classe parabola*
 
 #### *fuoco:*
+
     Se l’asse di simmetria della parabola è parallelo all’asse delle ordinate allora le
     coordinate del fuoco saranno (-b/2a ; 1-Δ/4a);
     Se l’asse di simmetria della parabola è parallelo all’asse delle ascisse allora le
     coordinate del fuoco saranno (1-Δ/4a ; -b/2a).
 
 #### *direttrice:*
+
 	Se l’asse di simmetria della parabola è parallelo all’asse delle ordinate allora l’
     equazione della direttrice sarà y = -1-Δ/4a;
     Se l’asse di simmetria della parabola è parallelo all’asse delle ascisse allora l’
     equazione della direttrice sarà x = -1-Δ/4a.
 
-
 #### *trovaY:*
+
 	presi i valori di a, b, c e x trova il valore/valori (a seconda dell’asse di simmetria) di y.
     Questo metodo è implementato nel metodo “punti”.
 
 #### *trovaX:*
+
 	presi i valori di a, b, c e y trova il valore/valori (a seconda dell’asse di simmetria) di x.
     Questo metodo è implementato nel metodo “punti”.
 
 #### *punti:*
+
 	Se l’asse della parabola è parallelo all’asse delle ordinate:
     l’utente inserisce un range di valori di x e il metodo trova il corrispondente 
     valore di y per ogni x attraverso il metodo “trovaY”. Successivamente inserisce le coordinate dei punti trovati in quel range di x all’interno di una lista di tuple;
