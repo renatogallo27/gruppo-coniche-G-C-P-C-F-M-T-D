@@ -8,7 +8,7 @@ Fulgione, Todino e Di Gennaro.*
 - Pala: **Gestione e realizzazione del software, addetto ad aggiornare il file .md e addetto ai preconcetti
   matematici.**
 - Corbo: **Gestione e realizzazione del software e addetto ad aggiornare il file .md**
-- Carotenuto: **Gestione e realizzazione del software, addetto ad aggiornare il file .md e addetto alla modifica delle
+- Carotenuto: **Gestione e realizzazione del software, addetto ad aggiornare il file .md, creazione del changhelog e addetto alla modifica delle
   immagini su Adobe Photoshop**
 - Gallo: **Gestione e realizzazione del software, gestione del ReadMe e del changelog e addetto ai preconcetti
   matematici.**
