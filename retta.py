@@ -82,17 +82,17 @@ class Retta:
             self.__m = -self.__a / self.__b
             return self.__m
 
-    def intersezione(self):
-        if self.m() == self.__m:
-            if self.m() == self.__m and (-self.__c / self.__b) == (-self.getC() / self.getB()):
+    def intersezione(self, s):
+        if s.m() == self.__m:
+            if s.m() == self.__m and (-self.__c / self.__b) == (-s.getC() / s.getB()):
                 return self.__punti
             else:
                 return f"null"
 
         else:
-            intersezione = (
-                ((-self.__c / self.__b) + (self.getC() / self.getB())) / (
-                        (-self.__b / self.__a) + (self.getB() / self.getA())),
-                ((-self.__b / self.__c) + (self.getB() / self.getC())) / (
-                        (-self.__b / self.__a) + (self.getB() / self.getA())))
-            return intersezione
+            inter = (
+                ((-self.__c / self.__b) + (s.getC() / s.getB())) / (
+                        (-self.__b / self.__a) + (s.getB() / s.getA())),
+                ((-self.__b / self.__c) + (s.getB() / s.getC())) / (
+                        (-self.__b / self.__a) + (s.getB() / s.getA())))
+            return inter
